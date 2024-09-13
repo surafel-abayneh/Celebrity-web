@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Become A Fan</title>
+
+    <style>
+        header {
+            position: fixed;
+            background: #000;
+            height: 60px;
+            width: 100%;
+            text-align: end;
+        }
+        header li {
+            display: inline;
+            list-style: none;
+             height: 40px;
+             line-height: 30px;
+            padding: 0 40px;
+        }
+
+         a{
+ 
+          color: #e2d9d9;
+          }
+          a:hover{
+           color: red;
+            text-decoration: none;
+           }
+        body {
+            font-family: Calibri, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        
+        .container {
+            padding: 50px 250px;
+            background-color: lightblue;
+            background-image: url("../ip_webproject/image/formback.jpg");
+            background-size: cover;
+        }
+        
+        input[type=text],
+        input[type=password],
+        textarea {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+        
+        div {
+            padding: 10px 0;
+        }
+        
+        hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+        }
+        
+        .registerbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+        
+        hr {
+            border-style: none;
+            border-top-style: dotted;
+            border-width: 10px;
+            width: 20%;
+            border-color: rgb(75, 143, 245);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <ul>
+            <li><a href="C:\Users\sb\Desktop\ip_webproject\homepage.html" class="nav-link">Home</a></li>
+            <li>
+                <a href="#" class="nav-link">Become A Fan</a>
+            </li>
+        </ul>
+    </header>
+    <form id="#form" action="" method="POST">
+        <div class="container">
+            <center>
+                <h1> Fan Registeration Form</h1>
+            </center>
+            <hr>
+            <label> Firstname </label>
+            <input type="text" name="firstname" placeholder="Firstname" size="15" minlength="4" required />
+            <label> Middlename: </label>
+            <input type="text" name="middlename" placeholder="Middlename" size="15" minlength="4" required />
+            <label> Lastname: </label>
+            <input type="text" name="lastname" placeholder="Lastname" size="15" minlength="4" required />
+            <div>
+                <label>
+                    Become A Fan of:
+                </label>
+
+                <select>
+                    <option value="suraphel">suraphel</option>
+                    <option value="tomas">tomas</option>
+                    <option value="yosef">yosef</option>
+
+                </select>
+            </div>
+            <div>
+                <label>Gender :</label><br>
+                <input type="radio" value="Male" name="gender" checked> Male
+                <input type="radio" value="Female" name="gender"> Female
+
+
+            </div>
+            <label> Phone :</label>
+            <input type="text" name="country code" placeholder="Country Code" minlength="10" value="+251" />
+            <label> Address :</label>
+            <textarea cols="10" rows="1" placeholder="Current Address" value="address" required></textarea>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" minlength="8" name="psw" required>
+            <label for="psw-repeat"><b>Re-type Password</b></label>
+            <input type="password" placeholder="Retype Password" minlength="8" name="psw-repeat" required>
+            <button type="submit" class="registerbtn">Register</button>
+    </form>
+</body>
+
+</html>

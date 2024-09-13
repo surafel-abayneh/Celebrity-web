@@ -1,0 +1,146 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-image: url("jo-image/iman_backgroundimage.jpg");
+    background-size: cover;
+    font-size: larger;
+}
+img.jimg{
+    border-radius: 15px;
+    width: 600px;
+    height: 400px;
+}
+
+h1 {
+    color: #3955f3;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #3955f3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #3955f3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+    color: rgb(32, 30, 30);
+}
+
+hr {
+    border: dotted #121313 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.top-container {
+    background-image: url(../jo/jo-image/1657858.webp);
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #9cff88;
+    padding: 25px 0 20px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.pencilpic {
+    height: 400px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+    height: 60px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+    height: 60px;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 60px;
+}
+
+.chilli-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 60px;
+}
+
+.btn {
+    background: #11cdd4;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+#propic {
+    height: 180px;
+    width: 180px;
+    border-radius: 60%;
+}
